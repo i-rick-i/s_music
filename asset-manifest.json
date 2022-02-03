@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/s_music/static/css/main.fd42c247.css",
+    "main.js": "/s_music/static/js/main.bf868b2f.js",
+    "static/media/persik.png": "/s_music/static/media/persik.ae9f00727841e011ac15.png",
+    "index.html": "/s_music/index.html",
+    "main.fd42c247.css.map": "/s_music/static/css/main.fd42c247.css.map",
+    "main.bf868b2f.js.map": "/s_music/static/js/main.bf868b2f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd42c247.css",
+    "static/js/main.bf868b2f.js"
+  ]
+}
