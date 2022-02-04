@@ -7,7 +7,7 @@ const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
 		<PanelHeader>Example</PanelHeader>
 		{fetchedUser &&
-		<Group header={<Header mode="secondary">User Data Fetched with VK Bridge</Header>}>
+		<Group header={<Header mode="secondary">данные о пользователе, полученные с помощью библиотеки-api vk-bridge</Header>}>
 			<Cell before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null} description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}>
 				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
 			</Cell>

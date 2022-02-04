@@ -23,7 +23,7 @@ const promoBannerProps={
 const Persik=props=>(
 	<Panel id={props.id}>
 		<PanelHeader left={<PanelHeaderBack onClick={props.go} data-to="home"/>}>
-			А это Персик]
+			А это супер-Персик]
 		</PanelHeader>
 		<img className="Persik" src={persik} alt="Persik The Cat"/>
     
