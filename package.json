@@ -2,7 +2,7 @@
   "name": "mini-app",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://i-rick-i.github.io/s_music",
+  "homepage": "./",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
@@ -19,9 +19,10 @@
     "react-scripts": "^4.0.3"
   },
   "dependencies": {
-    "@vkontakte/icons": "^1.141.1",
-    "@vkontakte/vk-bridge": "^2.5.2",
+    "@vkontakte/icons": "^1.92.0",
+    "@vkontakte/vk-bridge": "^2.4.6",
     "@vkontakte/vk-miniapps-deploy": "0.0.25",
+    "@vkontakte/vkjs": "^0.22.1",
     "@vkontakte/vkui": "^4.5.0",
     "babel-eslint": "^10.1.0",
     "chalk": "^4.1.0",
@@ -33,7 +34,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "devDependencies":{},
   "browserslist": {
     "production": [
       ">0.2%",
@@ -45,5 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-    }
+  }
 }
